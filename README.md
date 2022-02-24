@@ -33,6 +33,10 @@ Then for each environment, create a workspace:
 
     terraform workspace new <environment>
 
+Set the AWS region:
+
+    export AWS_REGION=us-east-1
+
 Plan the changes:
 
     terraform plan -out plan.out
